@@ -23,26 +23,82 @@
 a{
     display: inline-block;
     text-decoration: none;
-    font-family: "Azeret Mono", monospace;
+   
 }
 
 ul, ol{
     list-style-type: none;
-    font-family: "Azeret Mono", monospace;
+    
 }
 
 h1,h2,h3,h4,h5,h6, p{
     margin: 0;
     padding: 0;
     line-height: 0.8;
-    font-family: "Azeret Mono", monospace;
+    
 }
 
 .container{
     width: 1420px;
     margin: 0 auto;
 }
-
-
-
+.justify_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.black_bg{
+    background: #000000;
+}
+.white_color{
+    color: #ffffff;
+}
+.fw_600{
+    font-weight: 600;
+}
+.orange_bg{
+    background-color: #E6533C!important;
+}
+.orange_color{
+    color: #E6533C;
+}
 /* ------All Common CSS End------ */
+/* --------- Nav bar css start-----  */
+nav{
+    /* padding: 3rem 0 2rem; */
+    padding: 1rem 0 2rem;
+}
+.logo{
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 900;
+}
+.menu{
+    border:1px solid rgba(255, 255, 255, 0.18);
+    padding: 4px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.menu.justify_content{
+    gap: 30px;
+}
+
+.menu_item{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 8px 20px;
+    background-color: transparent;
+    border-radius: 46px;
+    -webkit-border-radius: 46px;
+    -moz-border-radius: 46px;
+    -ms-border-radius: 46px;
+    -o-border-radius: 46px;
+}
+.burger_icon{
+    display: none;
+}
+/* --------- Nav bar css end-----  */

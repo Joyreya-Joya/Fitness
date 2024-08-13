@@ -2,5 +2,10 @@
     .container{
         width: 90%;
     }
-    
+    .menu{
+        display: none;
+    }
+    .burger_icon{
+        display: inline;
+    }
 }
