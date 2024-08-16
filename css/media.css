@@ -123,7 +123,21 @@
     .shape {
         font-size: 6.5rem;
     }
-
-
+    .grid_4 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cng_habt_tips {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .heading{
+        width: 100%;
+    }
+    .left_content{
+        width: 100%;
+    }
+    .right_content{
+        width: 100%;
+    }
 
 }
