@@ -88,6 +88,9 @@ p {
 .fw_600 {
     font-weight: 600;
 }
+main img{
+    width: 100%;
+}
 
 p,
 td,
@@ -140,6 +143,7 @@ h3 {
     /* 48px */
     font-size: 3rem;
     font-weight: 900;
+    line-height: 120%;
 }
 
 .h3_sml {
@@ -368,3 +372,33 @@ text-align: center;
     line-height: 1.1rem;
 }
 /* -------- Change your Habit Part end---------- */
+/* -------- Run Section Start ---------- */
+.heading.run_head{
+    width: 100%;
+    text-align: left;
+}
+.run_sec .left_content{
+    width: 445px;
+}
+.run_sec .right_content{
+    width: 370px;
+}
+.rctang_img{
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.run_sec{
+    padding: 30px 40px;
+}
+.card_bg{
+    background: #222222;
+    border-radius: 18PX;
+    -webkit-border-radius: 18PX;
+    -moz-border-radius: 18PX;
+    -ms-border-radius: 18PX;
+    -o-border-radius: 18PX;
+}
+/* ------- Run Section end ---------- */
