@@ -1,11 +1,129 @@
 @media screen and (max-width:576px) {
-    .container{
+
+    .p_sml {
+        /* p - 14px */
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+
+    .p_mid {
+        /* p - 16px*/
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .p_lrg {
+        /* p - 20px */
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        /*----- 36px */
+        font-size: 3.2rem;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+    h2 {
+        /* 70px */
+        font-size: 4.4rem;
+        font-weight: 800;
+    }
+
+    h3 {
+        /* ---- 32px */
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .h3_sml {
+        /*---- 30 */
+        font-size: 1.8rem;
+        font-weight: 900;
+        line-height: 1.5rem;
+    }
+
+    h4 {
+        /* 32 */
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    h5 {
+        font-weight: 900;
+    }
+
+    .h5_lrg {
+        /* -- 16px */
+        font-size: 1rem;
+    }
+
+    .h5_mid {
+        /*--- 18px */
+        font-size: 1.1rem;
+    }
+
+    .h5_sml {
+        /* 20px */
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        /* 18px */
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .container {
         width: 90%;
     }
-    .menu{
+
+    .fd_col {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .menu {
         display: none;
     }
-    .burger_icon{
+
+    .burger_icon {
         display: inline;
     }
+
+    .flt_box2 {
+        left: 4%;
+        bottom: 40%;
+    }
+
+    .banner_floating_box {
+        padding: 20px 17px 16px;
+    }
+
+    .flt_box1 {
+        right: 0%;
+        top: 8%;
+    }
+
+    .btn_dsk {
+        display: none;
+    }
+
+    .btn_phn {
+        display: flex;
+    }
+
+    .btn {
+        width: 169px;
+    }
+    nav{
+        padding: 50px 0;
+    }
+    .shape {
+        font-size: 6.5rem;
+    }
+
+
+
 }

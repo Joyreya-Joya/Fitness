@@ -1,80 +1,213 @@
 /* ------All Common CSS Start------ */
-  .inter-regular{
+.inter-regular {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 .grey-qo-regular {
     font-family: "Grey Qo", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-}
-
-a{
-    display: inline-block;
-    text-decoration: none;
    
 }
 
-ul, ol{
-    list-style-type: none;
-    
+a {
+    display: inline-block;
+    text-decoration: none;
+
 }
 
-h1,h2,h3,h4,h5,h6, p{
+ul,
+ol {
+    list-style-type: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
     line-height: 0.8;
-    
+
 }
 
-.container{
-    width: 1420px;
+.container {
+    width: 1200px;
     margin: 0 auto;
 }
-.justify_content{
+
+.justify_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.black_bg{
+.grid_content{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.black_bg {
     background: #000000;
 }
-.white_color{
+
+.white_color {
     color: #ffffff;
 }
-.fw_600{
-    font-weight: 600;
+
+.gray_color {
+    color: rgba(255, 255, 255, 0.5);
 }
-.orange_bg{
-    background-color: #E6533C!important;
+
+.orange_bg {
+    background-color: #E6533C !important;
 }
-.orange_color{
+
+.orange_color {
     color: #E6533C;
 }
+
+.fw_600 {
+    font-weight: 600;
+}
+
+p,
+h1,
+h3,
+h4,
+h5,
+h6,
+a,
+tr,
+ul>li {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.p_sml {
+    /* p - 14px */
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+.p_mid {
+    /* p - 16px*/
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.p_lrg {
+    /* p - 20px */
+    font-size: 1.2rem;
+}
+
+h1 {
+    /* 78px */
+    font-size: 4.9rem;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+h2 {
+    /* 70px */
+    font-size: 4.4rem;
+    font-weight: 800;
+}
+
+h3 {
+    /* 48px */
+    font-size: 3rem;
+    font-weight: 900;
+}
+.h3_sml {
+    /* 40 */
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+
+h4 {
+    /* 32 */
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-weight: 900;
+}
+
+.h5_lrg {
+    /* 28px */
+    font-size: 1.8rem;
+}
+
+.h5_mid {
+    /* 24px */
+    font-size: 1.5rem;
+}
+
+.h5_sml {
+    /* 20px */
+    font-size: 1.2rem;
+}
+
+h6 {
+    /* 18px */
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.ptp_30{
+    padding: 30px 0px;
+}
+
+.btn{
+    /*18px*/font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    width: 224px;
+    line-height:  54px;
+    text-align: center;
+    border-radius: 42px;
+    -webkit-border-radius: 42px;
+    -moz-border-radius: 42px;
+    -ms-border-radius: 42px;
+    -o-border-radius: 42px;
+}
+.fill_btn{
+    background: #E6533C;
+}
+.brder_btn{
+    border: 1px solid #ffffff;
+}
+
+
 /* ------All Common CSS End------ */
 /* --------- Nav bar css start-----  */
-nav{
+nav {
     /* padding: 3rem 0 2rem; */
     padding: 1rem 0 2rem;
 }
-.logo{
+
+.logo {
     font-size: 2.3rem;
     font-style: italic;
     font-weight: 900;
 }
-.menu{
-    border:1px solid rgba(255, 255, 255, 0.18);
+
+.menu {
+    border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 4px;
     border-radius: 40px;
     -webkit-border-radius: 40px;
@@ -82,14 +215,14 @@ nav{
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
 }
-.menu.justify_content{
+
+.menu.justify_content {
     gap: 30px;
 }
 
-.menu_item{
+.menu_item {
     color: #ffffff;
-    font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 8px 20px;
     background-color: transparent;
     border-radius: 46px;
@@ -98,7 +231,74 @@ nav{
     -ms-border-radius: 46px;
     -o-border-radius: 46px;
 }
-.burger_icon{
+
+.burger_icon {
     display: none;
 }
+
 /* --------- Nav bar css end-----  */
+ /* -------hero part css start ---------  */
+.banner{
+    background:radial-gradient(circle, rgb(119 119 119 / 30%) 20%, rgba(17, 17, 17, 1) 90%);
+}
+.left_content{
+    max-width: 520px;
+}
+.right_content{
+    max-width: 350px;
+}
+.buttons .fill_btn{
+    margin-right: 14px;
+}
+.btn_phn{
+    display: none;
+}
+
+.shape {
+    font-weight: 400;
+    font-family: 'Miama', sans-serif;
+    font-size: 10rem;
+}
+
+.right_content{
+    position: relative;
+}
+.banner_floating_box{
+    position: absolute;
+    padding: 20px 23px;
+    background: #30303091;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.flt_box2 {
+    left: -30%;
+    bottom: 10%;
+}
+.red_crcl{
+    width: 40px;
+    height: 40px;
+    background: #E6533C;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.banner_floating_box.justify_content{
+    gap: 12px;
+}
+.banner_floating_box p{
+    margin-top: 10px;
+}
+.flt_box1 {
+    right: -30%;
+    top: 30%;
+}
+.banner_sec .right_content{
+    line-height: 0;
+}
+ /* -------hero part css end ---------  */
