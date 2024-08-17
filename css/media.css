@@ -155,9 +155,30 @@
     .bmi_sec .mb_60 {
         margin-bottom: 30px!important;
     }
+    .bmi_calc .left_content {
+        max-width: 100%;
+    }
+    .bmi_calc .right_content {
+        max-width: 100%;
+    }
 
 
     /* -------- BMI calculator Section End ----------  */
+
+    /* -------- Footer Section Start ---------- */
+
+.footer_div{
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.footer_item h4{
+    margin-bottom: 30px;
+}
+.copy_right{
+    text-align: left;
+}
+/* -------- Footer Section End ---------- */
 
 
 }

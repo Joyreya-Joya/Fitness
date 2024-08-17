@@ -101,7 +101,7 @@ main img{
 
 p,
 td,
-ul>li {
+ul>li, ul>li>a {
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -164,6 +164,7 @@ h4 {
     /* 32 */
     font-size: 2rem;
     font-weight: 700;
+    line-height: 120%;
 }
 
 h5 {
@@ -476,6 +477,9 @@ table, th, td {
 }
 /* -------- BMI calculator Section End ---------- */
 /* -------- Meet Our Team Section start ----------   */
+.our_team_sec{
+    margin-bottom: 90px;
+}
 .team_members{
     padding: 20px;
 }
@@ -500,3 +504,27 @@ table, th, td {
 
 
 /* -------- Meet Our Team Section end ----------   */
+/* -------- Footer Section Start ---------- */
+footer{
+    background: #191919;
+}
+.footer_div{
+    display: grid;
+    grid-template-columns: 6fr 3fr 3fr;
+    gap: 40px;
+    padding: 66px 0px 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.188);
+}
+
+.ftr_menu{
+    display: grid;
+    gap: 14px;
+}
+.footer_item h4{
+    margin-bottom: 40px;
+}
+.copy_right{
+    padding: 35px 0px;
+    text-align: center;
+}
+/* -------- Footer Section End ---------- */
