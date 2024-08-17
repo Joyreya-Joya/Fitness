@@ -123,7 +123,7 @@
     .shape {
         font-size: 6.5rem;
     }
-    .grid_4 {
+    .grid_4, .grid_3 {
         grid-template-columns: repeat(1, 1fr);
     }
     .cng_habt_tips {
@@ -151,8 +151,13 @@
     }
 
     /* ------- Run Section end ---------- */
+    /* -------- BMI calculator Section start ----------  */
+    .bmi_sec .mb_60 {
+        margin-bottom: 30px!important;
+    }
 
 
+    /* -------- BMI calculator Section End ----------  */
 
 
 }
