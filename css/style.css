@@ -597,5 +597,9 @@ padding: 16px 0px 20px;
     -o-border-radius: 42px;
 }
 
+.plan_inculded_colored li::marker {
+    color: #ffffff;
+}
+
 
 /* ------------- Purchase Plan Part Start------ */
