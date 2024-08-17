@@ -528,3 +528,74 @@ footer{
     text-align: center;
 }
 /* -------- Footer Section End ---------- */
+/* ------------- Purchase Plan Part Start------ */
+.per_mnth{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.prchs_item{
+    background: #222222;
+    /* box-shadow: 0px 3px 13px #222222; */
+    padding: 40px 30px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    text-align: center;
+}
+.pckg_btns {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 14px;
+    background: #222222;
+    padding: 14px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    align-items: center;
+}
+.pckg_btns .btn{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.p_price{
+border-bottom:1px solid rgba(255, 255, 255, 0.188);
+padding: 16px 0px 20px;
+}
+.plan_inculded{
+    display: grid;
+    gap: 10px;
+    margin: 20px 15px 30px ;
+    text-align: left;
+}
+
+.plan_inculded li::marker{
+    color: #E6533C;
+}
+.plan_inculded li {
+    list-style-type: disclosure-closed;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.get_btn {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 8px 24px;
+    text-align: center;
+    border-radius: 42px;
+    -moz-border-radius: 42px;
+    -ms-border-radius: 42px;
+    -o-border-radius: 42px;
+}
+
+
+/* ------------- Purchase Plan Part Start------ */
